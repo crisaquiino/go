@@ -3,7 +3,11 @@ import (
 	"fmt"
 )
 func main () {
-	for x := 0; x < 10; x++ {
-		fmt.Println(" ", x)
+	for horas := 0; horas <= 12; horas++ {
+		fmt.Println("Hora:", horas)
+		for minutos := 0; minutos <= 60; minutos++{
+			fmt.Println(" ", minutos)
+		}
+		fmt.Println("\n")
 	}
 }
