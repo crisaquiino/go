@@ -13,5 +13,7 @@ func main (){
 		fmt.Println("x e igual a cinco")
 	case x == 5:
 		fmt.Println("menor que 5")
+	default:
+		fmt.Println("Valor 5")
 	}
 }
