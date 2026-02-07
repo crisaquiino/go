@@ -12,3 +12,5 @@ func main (){
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
  }
+
+ // utilizar quando quiser reduzir extremamente o uso da memoria de um slice
