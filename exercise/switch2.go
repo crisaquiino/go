@@ -1,12 +1,14 @@
 package main
+
 import (
 	"fmt"
 )
+var x [5]int
 
-func main() {
-	fmt.Println( true && true)
-	fmt.Println(true && false)
-	fmt.Println(true || false)
-	fmt.Println(true || true)
-	fmt.Println(!true)
-}
+func main (){
+	x[0] = 1
+	x[1] = 10
+	fmt.Println(x[0], x[1])
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
+ }
